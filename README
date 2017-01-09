@@ -1,0 +1,38 @@
+README for ASSIGNMENT #1, CMPT310 
+
+Xuanbing(Liz) Yan
+StudentNumber: 301295772
+SFU UserName: xya60
+CMPT310 Fall2016 Assignment #1
+Instructor: James Delgrande <jim@sfu.ca>
+TA: Yajie(Jill) Zhou <yajiez@sfu.ca>
+
+
+FILES:
+	Makefile
+	main1.cpp
+	main2.cpp
+	navigation.cpp
+	navigation.h
+	README
+	report.html
+
+
+HOW TO RUN:
+	1. find and open this file folder in Terminal (or other command line tools) in each workstation, using "cd [path]"
+	2. input “make” to build the executable program ”navigation1” and "navagation2" and some “.o” files
+	3. 
+		i).  for problem 1, input the executable file “./navigation1" 
+		ii). for problem 2, input the executable file "./navigation2"
+	4. input the coordinates of starting node and the goal node accordingly
+	5. you will get the results then
+	6. if you input “make clean”, the Makefile will remove the executable files and all “.o” files.
+	
+	or 
+
+	You can just double click the executable files "navigation1" for problem 1 and "navigation2" for problem2. Then input the coordinates of the start and goal accordingly.
+
+
+ERROR MESSAGES
+	1. if the input node is an obstacle, "INPUT ERROR: the node is an obstacle!" will be printed out;
+	2. if the input node is out of the range, "INPUT ERROR: the node is out of range!" will be printed out.
